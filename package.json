@@ -4,7 +4,8 @@
   "description": "hi",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "watchify -v -d index.babel.js -t [ babelify --presets [ es2015 ] ] -o 'exorcist index.js.map > index.js'"
   },
   "repository": {
     "type": "git",
