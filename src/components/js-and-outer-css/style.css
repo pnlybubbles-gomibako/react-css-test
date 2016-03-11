@@ -1,0 +1,26 @@
+container {
+  background-color: #eee;
+}
+
+header {
+  font-size: 30px;
+}
+
+description {
+  padding: 10px 30px;
+}
+
+list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 300px;
+}
+
+item {
+  font-size: 12px;
+  &:hover {
+    background-color: #fbb;
+  }
+
+}
